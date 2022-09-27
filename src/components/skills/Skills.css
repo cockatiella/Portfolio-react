@@ -1,0 +1,75 @@
+.rosa-1 {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  left: 0px;
+  top: 70px;
+  background: #f5b6f7;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green-2 {
+  position: absolute;
+  width: 50vw;
+  height: 60vh;
+  left: 50vw;
+  top: 70px;
+  border: 4px solid black;
+  background: #a4f3de;
+}
+
+.green-3 {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  left: 0px;
+  top: 50vh;
+  border: 4px solid black;
+  background: #a4f3de;
+}
+
+.rosa-4 {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  left: 50vw;
+  top: 50vh;
+  border: 4px solid black;
+  background: #f5b6f7;
+}
+
+.logos {
+  width: 50vh;
+}
+
+.skillsdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.skill {
+  font-family: jetbrains mono;
+  font-size: 1.5rem;
+}
+
+.skills {
+  font-size: 3rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.logos2 {
+  width: 50vh;
+}

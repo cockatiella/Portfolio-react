@@ -1,0 +1,22 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #e8ffa8;
+  height: 100vh;
+}
+
+.weather,
+.sticky {
+  cursor: pointer;
+}
+
+.weather:hover {
+  animation: pulse;
+  animation-duration: 1s;
+}
+
+.sticky:hover {
+  animation: pulse;
+  animation-duration: 1s;
+}

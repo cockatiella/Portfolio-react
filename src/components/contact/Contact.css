@@ -1,0 +1,32 @@
+.wrapper {
+  background-color: #a4f3de;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.btn-1{
+    animation: backInRight;
+    animation-duration: 0.5s;
+}
+
+.btn-3{
+    animation:backInLeft;
+    animation-duration: 0.5s;
+}
+
+.btn-3:hover {
+  animation: pulse;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+
+.pic-icon1:hover,
+.pic-icon2:hover,
+.pic-icon3:hover {
+  animation: pulse;
+  animation-duration: 2s;
+  cursor: pointer;
+}
