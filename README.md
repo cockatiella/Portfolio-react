@@ -20,9 +20,9 @@ npm start
 
 ## Some Screenshots
 
-![contact page](../portfolio/src/images/Contact%20me.png)
-![Projects](../portfolio/src/images/Projects.png)
-![Skills](../portfolio/src/images/Skills.png)
+
+![](../portfolio/src/images/Projects.png)
+![](../portfolio/src/images/Skills.png)
 
 ## Rescources
 
@@ -32,3 +32,8 @@ npm start
 - [Bootstrap](https://getbootstrap.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Figma](https://www.figma.com/)
+- [Google fonts](https://fonts.google.com/)
+
+## Deployment
+
+This project is deployed on [Netlify](https://portfolio-sofiadinatolo.netlify.app/).
