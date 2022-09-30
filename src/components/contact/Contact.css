@@ -13,7 +13,7 @@
 }
 
 .btn-3 {
-  animation: backInLeft;
+  animation: pulse;
   animation-duration: 0.5s;
 }
 
