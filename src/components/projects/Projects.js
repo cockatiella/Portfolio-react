@@ -12,12 +12,12 @@ export default function Projects() {
         <div>
           <br />
          <a href="https://weather-app-react-sofia.netlify.app/" target='_blank'><img src={Weather} alt="" className="mt-5 weather" /></a> 
-          <img src={WeatherApp} alt="" className="mt-5" />
+          <img src={WeatherApp} alt="" className="mt-5 pic" />
         </div>
 
         <div className="">
          <a href="https://stickynotesapp-react.netlify.app/" target='_blank'> <img src={Sticky} alt="" className="mt-5 mx-3 sticky" /></a>
-          <img src={StickyNotes} alt="" className="mt-5" />
+          <img src={StickyNotes} alt="" className="mt-5 pic" />
         </div>
       </div>
 

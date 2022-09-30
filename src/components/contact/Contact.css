@@ -7,14 +7,14 @@
   flex-wrap: wrap;
   flex-direction: column;
 }
-.btn-1{
-    animation: backInRight;
-    animation-duration: 0.5s;
+.btn-1 {
+  animation: backInRight;
+  animation-duration: 0.5s;
 }
 
-.btn-3{
-    animation:backInLeft;
-    animation-duration: 0.5s;
+.btn-3 {
+  animation: backInLeft;
+  animation-duration: 0.5s;
 }
 
 .btn-3:hover {
@@ -29,4 +29,27 @@
   animation: pulse;
   animation-duration: 2s;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    height: 100vh;
+    width: 100vw;
+  }
+  .pic-icon1,
+  .pic-icon2,
+  .pic-icon3 {
+    width: 20vw;
+    height: 20vw;
+    margin-bottom: 10px;
+  }
+  .pic {
+    width: 20vw;
+    height: 20vw;
+  }
+  .btn-1,
+  .btn-3 {
+    animation: none;
+    width: 60vw;
+  }
 }

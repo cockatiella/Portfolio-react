@@ -20,3 +20,41 @@
   animation: pulse;
   animation-duration: 1s;
 }
+
+@media screen and (max-width: 768px) {
+  .projects {
+    height: 100%;
+  }
+  .weather,
+  .sticky {
+    cursor: pointer;
+    width: 50%;
+    height: 50%;
+    padding-left: 10px;
+  }
+
+  .pic {
+    width: 90vw;
+    height: 90vw;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .projects {
+    height: 100%;
+  }
+  .weather,
+  .sticky {
+    cursor: pointer;
+    width: 50%;
+    height: 50%;
+    padding-left: 10px;
+  }
+
+  .pic {
+    width:500px;
+    height: 500px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+}
