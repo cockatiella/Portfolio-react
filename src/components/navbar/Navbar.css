@@ -53,3 +53,11 @@ ul {
     width: 100%;
   }
 }
+
+/* media query for ipad */
+
+@media screen and (max-width: 1024px) {
+  .nav-link {
+    font-size: 1.2rem;
+  }
+}

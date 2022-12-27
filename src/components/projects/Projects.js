@@ -8,19 +8,26 @@ import WeatherApp from "../../images/weather_app.png";
 export default function Projects() {
   return (
     <div className="projects">
-      <div className="">
+      <div className="projects-wrap">
         <div>
           <br />
-         <a href="https://weather-app-react-sofia.netlify.app/" target='_blank'><img src={Weather} alt="" className="mt-5 weather" /></a> 
+          <a
+            href="https://weather-app-react-sofia.netlify.app/"
+            target="_blank"
+          >
+            <img src={Weather} alt="" className="mt-5 weather" />
+          </a>
           <img src={WeatherApp} alt="" className="mt-5 pic" />
         </div>
 
-        <div className="">
-         <a href="https://stickynotesapp-react.netlify.app/" target='_blank'> <img src={Sticky} alt="" className="mt-5 mx-3 sticky" /></a>
+        <div className="mt-5">
+          <a href="https://stickynotesapp-react.netlify.app/" target="_blank">
+            {" "}
+            <img src={Sticky} alt="" className="mt-5 mx-3 sticky" />
+          </a>
           <img src={StickyNotes} alt="" className="mt-5 pic" />
         </div>
       </div>
-
     </div>
   );
 }

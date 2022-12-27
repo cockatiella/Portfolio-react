@@ -21,6 +21,16 @@
   animation-duration: 1s;
 }
 
+svg {
+  margin-bottom: 50px;
+  color: black;
+}
+
+svg:hover {
+  animation: pulse;
+  animation-duration: 1s;
+}
+
 @media screen and (max-width: 768px) {
   .projects {
     height: 100%;
@@ -39,7 +49,7 @@
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .projects {
     height: 100%;
   }
@@ -52,7 +62,7 @@
   }
 
   .pic {
-    width:500px;
+    width: 500px;
     height: 500px;
     margin-top: 10px;
     padding-top: 10px;
