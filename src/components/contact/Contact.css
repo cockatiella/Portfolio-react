@@ -1,11 +1,11 @@
 .wrapper {
   background-color: #a4f3de;
-  height: 60vw;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   flex-direction: column;
+  padding: 60px;
 }
 .btn-1 {
   animation: backInRight;
@@ -22,10 +22,15 @@
   animation-duration: 1s;
   cursor: pointer;
 }
+.pic-icon4{
+  width: 8em;
+  height: 8em;
+}
 
 .pic-icon1:hover,
 .pic-icon2:hover,
-.pic-icon3:hover {
+.pic-icon3:hover,
+.pic-icon4:hover {
   animation: pulse;
   animation-duration: 2s;
   cursor: pointer;
@@ -34,22 +39,22 @@
 @media screen and (max-width: 768px) {
   .wrapper {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
   }
   .pic-icon1,
   .pic-icon2,
-  .pic-icon3 {
-    width: 20vw;
-    height: 20vw;
-    margin-bottom: 10px;
+  .pic-icon3,
+  .pic-icon4{
+    width: 5em;
+    height: 5em;
   }
   .pic {
-    width: 20vw;
-    height: 20vw;
+    width: 5em;
+    height: 5em;
   }
   .btn-1,
   .btn-3 {
     animation: none;
-    width: 60vw;
+    width: 10em;
   }
 }

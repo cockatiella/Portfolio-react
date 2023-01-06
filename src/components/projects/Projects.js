@@ -9,23 +9,28 @@ export default function Projects() {
   return (
     <div className="projects">
       <div className="projects-wrap">
-        <div>
+        <div className="pic-1">
           <br />
           <a
             href="https://weather-app-react-sofia.netlify.app/"
             target="_blank"
+            rel="opener"
           >
-            <img src={Weather} alt="" className="mt-5 weather" />
+            <img src={Weather} alt="" className=" weather" />
           </a>
-          <img src={WeatherApp} alt="" className="mt-5 pic" />
+          <img src={WeatherApp} alt="" className=" pic" />
         </div>
 
-        <div className="mt-5">
-          <a href="https://stickynotesapp-react.netlify.app/" target="_blank">
+        <div className="pic-2">
+          <a
+            href="https://stickynotesapp-react.netlify.app/"
+            target="_blank"
+            rel="opener"
+          >
             {" "}
-            <img src={Sticky} alt="" className="mt-5 mx-3 sticky" />
+            <img src={Sticky} alt="" className="sticky" />
           </a>
-          <img src={StickyNotes} alt="" className="mt-5 pic" />
+          <img src={StickyNotes} alt="" className=" pic" />
         </div>
       </div>
     </div>
